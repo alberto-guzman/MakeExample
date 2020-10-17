@@ -1,0 +1,5 @@
+## Literature Review
+
+Computational social science projects ranging from text as data, to image analysis, to high resolution violence forecasting have accelerated over the last several years. Many of their innovations have been driven by flexible machine learning algorithms. The Violence Early Warning System (ViEWS) provides one example. The teams most recent predictions are presented in the fiture below.
+
+![](ViEWSMapGridCell.png){ width=75% }

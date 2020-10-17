@@ -1,0 +1,12 @@
+---
+title: "Not so accurate: Why accuracy is poor performance metric for computational social science applications"
+author: Pem Div
+---
+
+# Abstract
+
+In this research report we discuss the use of accuracy as a performance metric in machine learning applications.
+We illustrate that accuracy fails to account for the social, spatial, and dynamic contexts within which measures and inferences are made.
+Our group offers a new metric that is more appropriate for computational social science projects that nest data science within society. 
+
+

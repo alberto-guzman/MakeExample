@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Pem Div" />
+  <title>Not so accurate: Why accuracy is poor performance metric for computational social science applications</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Not so accurate: Why accuracy is poor performance metric for computational social science applications</h1>
+<p class="author">Pem Div</p>
+</header>
+<h1 id="abstract">Abstract</h1>
+<p>In this research report we discuss the use of accuracy as a performance metric in machine learning applications. We illustrate that accuracy fails to account for the social, spatial, and dynamic contexts within which measures and inferences are made. Our group offers a new metric that is more appropriate for computational social science projects that nest data science within society.</p>
+<h2 id="literature-review">Literature Review</h2>
+<p>Computational social science projects ranging from text as data, to image analysis, to high resolution violence forecasting have accelerated over the last several years. Many of their innovations have been driven by flexible machine learning algorithms. The Violence Early Warning System (ViEWS) provides one example. The teams most recent predictions are presented in the fiture below.</p>
+<p><img src="ViEWSMapGridCell.png" style="width:75.0%" /> ## Approach</p>
+<p>As the map makes clear, violence prediction has strong spatial components; yet these are not considered in bin-by-bin machine learning performance metrics, such as accuracy, AUC, precision, recall, F1, the Brier Score, and others.</p>
+<p>In each of these classes, the bin-by-metrics take on the form:</p>
+<p><span class="math display">\[
+\sum_{i}^{M} f(y_{i}, \hat{y}_{i})
+\]</span></p>
+<p>Where for accuracy, <span class="math inline">\(f\)</span> is replaced with the indicator functions:</p>
+<p><span class="math display">\[
+f = \mathcal(I)[y_{i}==\hat{y}_{i}]
+\]</span></p>
+<p>Our appreach relaxes this assumption by estimating and presenting a flow of mass across a generic graph that can be designed by the researchers. ## Results</p>
+<p>Our algorithm provides new insights into well and poor performing algorithms that are not available with accuracy or other bin-by-bin metrics.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Our work complements existing approaches to define domain specific cost functions. In the future we plan to incorporate quantum computing to speed up inference over multiple flows.</p>
+</body>
+</html>

@@ -1,0 +1,4 @@
+## Results
+
+Our algorithm provides new insights into well and poor performing algorithms that are not available with accuracy or other bin-by-bin metrics.
+
